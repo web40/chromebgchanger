@@ -2,5 +2,9 @@
     "name": "Chrome Background Changer",
     "description":"Allows you to change your chrome background color",
     "version" : "1.0",
-    "manifest_version":3
+    "manifest_version":3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "permissions":["storage"]
 }
